@@ -27,6 +27,7 @@ $ pip install numpy
 * [해당문서](/2_activate_digitizer/README.md) 참조 바랍니다.
 
 # 3. Logfile to digit
+![dig1](/image/main_dig1.bmp) ![dig1](/image/main_dig2.bmp) ![dig1](/image/main_dig3.bmp) ![dig1](/image/main_dig4.bmp) --> 0 0 0 1
 * sd-card 에서 뽑아낸 데이터를 정제 후 실제 값으로 변경하는 과정입니다.
 * 'load_digit.ipynb' 스크립트 실행 시, 결측값 제거 후 output 으로 저장. 
 

@@ -13,37 +13,19 @@
 
 ## Install package
 * 아래의 [pip package](https://www.tensorflow.org/install/pip) 를 다운로드
-
 ```
 $ pip install tensorflow
 $ pip install matplotlib
 $ pip install -U scikit-learn
 $ pip install numpy
 ```
+- 단계별로 실행 가능한 "CNN_training.ipynb" 와 자동실행 "script.py" 로 분류.
+- [해당문서](/1_training_tflite_model/README.md) 참조 바랍니다.
 
-## Process in CNN_training.ipynb
+# 2. Activate digitizer
+* 2번 프로젝트는 학습된 CNN 모델을 이용한 숫자인식 과정입니다.
+* [해당문서](/2_activate_digitizer/README.md) 참조 바랍니다.
 
-### 1. Preparing the training
-- 파이선 라이브러리 로드
 
-### 2. Load training data
-- [학습용 데이터](https://github.com/jomjol/neural-network-digital-counter-readout/tree/master/ziffer_sortiert_resize) 다운로드
-- 데이터셋 정제
 
-### 3. Make CNN Model
-- CNN Model 생성
 
-### 4. Training
-- Tensorflow 를 통한 모델학습
-
-### 5. Result (Plot)
-- Matplotlib 을 통한 결과 Loss 와 Accuracy 출력
-
-### 6. Save the model
-- 학습된 모델 저장
-- tf -> tflite 모델 변환 과정 진행
-
-### 7. Check accuracy with each Image
-- 실제 데이터와 검증
-
-## 2. Digit providing in water meter

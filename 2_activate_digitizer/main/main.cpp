@@ -137,5 +137,5 @@ void setup() {
 }
 
 void loop() {
-    // reset..
+    // reset...
 }

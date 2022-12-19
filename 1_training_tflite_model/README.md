@@ -14,7 +14,7 @@ $ pip install -U scikit-learn
 $ pip install numpy
 ```
 
-## Process in CNN_training.ipynb
+## Process in [CNN_training.ipynb](CNN_training.ipynb)
 
 #### 1. Preparing the training
 - 파이선 라이브러리 로드

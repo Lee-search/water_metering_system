@@ -15,7 +15,7 @@
 - esp32-cam 과 PC 연결 
 (이미지는 ESP32 와 FDTI Serial 케이블 연결 예시)
 
-<img src="../image/connected.png.jpg" width="400" height="auto"/>
+<img src="../image/connected.png" width="400" height="auto"/>
 
 ## Upload firmware
 #### 1. VSCode 설치 & PlatformIO 확장도구 설치
@@ -33,3 +33,8 @@ $ pio device monitor        # 시리얼 모니터 ON
 ```
 
 #### 또는 해당 [사이트](https://jomjol.github.io/AI-on-the-edge-device/index.html)에서 안내에 따라 진행가능합니다. 
+
+## Initial Settings
+![serial](../image/serial.png)
+- 시리얼 모니터에 출력되는 로컬 주소에 접속 후 안내에 따라 진행
+- More, https://github.com/jomjol/AI-on-the-edge-device/wiki/Configuration

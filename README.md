@@ -31,4 +31,7 @@ $ pip install numpy
 * sd-card 에서 뽑아낸 데이터를 정제 후 실제 값으로 변경하는 과정입니다.
 * 'load_digit.ipynb' 스크립트 실행 시, 결측값 제거 후 output 으로 저장. 
 
+### 실제 구동 이미지
+<img src="image/example.png" width="400" height="auto"/>
+
 
